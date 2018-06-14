@@ -12,6 +12,10 @@
 		21042ED520D313C200D36561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21042ED420D313C200D36561 /* Assets.xcassets */; };
 		21042ED820D313C200D36561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21042ED620D313C200D36561 /* LaunchScreen.storyboard */; };
 		21042EDB20D313C200D36561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21042EDA20D313C200D36561 /* main.m */; };
+		21042EE320D3161200D36561 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21042EE220D3161200D36561 /* PanViewController.m */; };
+		21042EE620D3161900D36561 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21042EE520D3161900D36561 /* TapViewController.m */; };
+		21042EE920D318FD00D36561 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21042EE820D318FD00D36561 /* PinchViewController.m */; };
+		21042EEC20D3202300D36561 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21042EEB20D3202300D36561 /* SwipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,14 @@
 		21042ED720D313C200D36561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21042ED920D313C200D36561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21042EDA20D313C200D36561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21042EE120D3161200D36561 /* PanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		21042EE220D3161200D36561 /* PanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		21042EE420D3161900D36561 /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		21042EE520D3161900D36561 /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		21042EE720D318FD00D36561 /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		21042EE820D318FD00D36561 /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		21042EEA20D3202300D36561 /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		21042EEB20D3202300D36561 /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +70,17 @@
 				21042ECB20D313BD00D36561 /* AppDelegate.h */,
 				21042ECC20D313BD00D36561 /* AppDelegate.m */,
 				21042ED120D313BD00D36561 /* Main.storyboard */,
+				21042EE720D318FD00D36561 /* PinchViewController.h */,
+				21042EE820D318FD00D36561 /* PinchViewController.m */,
 				21042ED420D313C200D36561 /* Assets.xcassets */,
 				21042ED620D313C200D36561 /* LaunchScreen.storyboard */,
 				21042ED920D313C200D36561 /* Info.plist */,
+				21042EE120D3161200D36561 /* PanViewController.h */,
+				21042EE220D3161200D36561 /* PanViewController.m */,
+				21042EE420D3161900D36561 /* TapViewController.h */,
+				21042EE520D3161900D36561 /* TapViewController.m */,
+				21042EEA20D3202300D36561 /* SwipeViewController.h */,
+				21042EEB20D3202300D36561 /* SwipeViewController.m */,
 				21042EDA20D313C200D36561 /* main.m */,
 			);
 			path = Gestures;
@@ -136,7 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21042EE320D3161200D36561 /* PanViewController.m in Sources */,
 				21042EDB20D313C200D36561 /* main.m in Sources */,
+				21042EE920D318FD00D36561 /* PinchViewController.m in Sources */,
+				21042EEC20D3202300D36561 /* SwipeViewController.m in Sources */,
+				21042EE620D3161900D36561 /* TapViewController.m in Sources */,
 				21042ECD20D313BD00D36561 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
